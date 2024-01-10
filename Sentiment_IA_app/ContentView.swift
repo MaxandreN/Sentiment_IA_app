@@ -86,7 +86,6 @@ struct ContentView: View {
                 .opacity(outputSentiment == nil ? 0 : 1.0)
                 .scaleEffect(outputSentiment == nil ? 0.3 : 1.0)
                 .animation(.bouncy, value: outputSentiment)
-                //Spacer()
             }.navigationTitle("🧠 IA du future")
         }
     }
@@ -108,8 +107,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-}
-
-#Preview {
-    ContentView(outputSentiment: .positive)
 }
