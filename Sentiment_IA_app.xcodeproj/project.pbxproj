@@ -11,9 +11,7 @@
 		56AEFE5A2B4EE167005921D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEFE592B4EE167005921D4 /* ContentView.swift */; };
 		56AEFE5C2B4EE168005921D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AEFE5B2B4EE168005921D4 /* Assets.xcassets */; };
 		56AEFE5F2B4EE168005921D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AEFE5E2B4EE168005921D4 /* Preview Assets.xcassets */; };
-		56AEFE692B4EE168005921D4 /* Sentiment_IA_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEFE682B4EE168005921D4 /* Sentiment_IA_appTests.swift */; };
-		56AEFE732B4EE168005921D4 /* Sentiment_IA_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEFE722B4EE168005921D4 /* Sentiment_IA_appUITests.swift */; };
-		56AEFE752B4EE168005921D4 /* Sentiment_IA_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AEFE742B4EE168005921D4 /* Sentiment_IA_appUITestsLaunchTests.swift */; };
+		56AEFE822B4EEEAD005921D4 /* Sentiment_ia 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 56AEFE812B4EEEAD005921D4 /* Sentiment_ia 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +38,8 @@
 		56AEFE5B2B4EE168005921D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56AEFE5E2B4EE168005921D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		56AEFE642B4EE168005921D4 /* Sentiment_IA_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sentiment_IA_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		56AEFE682B4EE168005921D4 /* Sentiment_IA_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_IA_appTests.swift; sourceTree = "<group>"; };
 		56AEFE6E2B4EE168005921D4 /* Sentiment_IA_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sentiment_IA_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		56AEFE722B4EE168005921D4 /* Sentiment_IA_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_IA_appUITests.swift; sourceTree = "<group>"; };
-		56AEFE742B4EE168005921D4 /* Sentiment_IA_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_IA_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56AEFE812B4EEEAD005921D4 /* Sentiment_ia 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Sentiment_ia 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				56AEFE562B4EE167005921D4 /* Sentiment_IA_app */,
-				56AEFE672B4EE168005921D4 /* Sentiment_IA_appTests */,
-				56AEFE712B4EE168005921D4 /* Sentiment_IA_appUITests */,
 				56AEFE552B4EE167005921D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +90,7 @@
 			children = (
 				56AEFE572B4EE167005921D4 /* Sentiment_IA_appApp.swift */,
 				56AEFE592B4EE167005921D4 /* ContentView.swift */,
+				56AEFE812B4EEEAD005921D4 /* Sentiment_ia 1.mlmodel */,
 				56AEFE5B2B4EE168005921D4 /* Assets.xcassets */,
 				56AEFE5D2B4EE168005921D4 /* Preview Content */,
 			);
@@ -108,23 +103,6 @@
 				56AEFE5E2B4EE168005921D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		56AEFE672B4EE168005921D4 /* Sentiment_IA_appTests */ = {
-			isa = PBXGroup;
-			children = (
-				56AEFE682B4EE168005921D4 /* Sentiment_IA_appTests.swift */,
-			);
-			path = Sentiment_IA_appTests;
-			sourceTree = "<group>";
-		};
-		56AEFE712B4EE168005921D4 /* Sentiment_IA_appUITests */ = {
-			isa = PBXGroup;
-			children = (
-				56AEFE722B4EE168005921D4 /* Sentiment_IA_appUITests.swift */,
-				56AEFE742B4EE168005921D4 /* Sentiment_IA_appUITestsLaunchTests.swift */,
-			);
-			path = Sentiment_IA_appUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +237,7 @@
 			files = (
 				56AEFE5A2B4EE167005921D4 /* ContentView.swift in Sources */,
 				56AEFE582B4EE167005921D4 /* Sentiment_IA_appApp.swift in Sources */,
+				56AEFE822B4EEEAD005921D4 /* Sentiment_ia 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AEFE692B4EE168005921D4 /* Sentiment_IA_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AEFE752B4EE168005921D4 /* Sentiment_IA_appUITestsLaunchTests.swift in Sources */,
-				56AEFE732B4EE168005921D4 /* Sentiment_IA_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
